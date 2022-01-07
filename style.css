@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 227, 211);
+}
+h1 {
+    font-size: 90px;
+    width: 250px;
+}
+.main_div
+{
+background:#c7d1ff;
+padding: 10px;
+margin-top: 15px;
+border: 3px dotted white;
+width: 330;
+}
+.main_div label
+{
+background: rgb(206, 255, 210);
+width: 310px;
+padding: 10px;
+margin-bottom: 0px;
+}
+#camera , #result
+{
+border: 2px dotted white;
+width: 310px;
+height: 300px;
+}
+.footer_div {
+    margin-bottom: 50px;
+}
+.footer_div h4 {
+    background: rgb(197, 241, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+h3 {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
