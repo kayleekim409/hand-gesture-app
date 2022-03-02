@@ -14,7 +14,7 @@ function take_snapshot() {
 }
 console.log('ml5 version: ', ml5.version);
 
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/v_sl958zE/model.json', modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/9yznSoHL-/', modelLoaded);
 function modelLoaded () {
     console.log('Model Loaded!');
 }
@@ -39,8 +39,14 @@ function gotResult(error, results) {
         document.getElementById("object_name").innerHTML = results[0].label;
         prediction_1 = results[0].label;
         speak();
-        if (results[0].label == "happy") {
-            document.getElementById("")
+        if (results[0].label == "Amazing") {
+            document.getElementById("object_name").innerHTML = &#128076;
+        }
+        else if (results[0].label == "Best") {
+            document.getElementById("object_name").innerHTML = &#128077;
+        }
+        else if (results[0].label == "Victory") {
+            document.getElementById("object_name").innerHTML = &#9996;
         }
     }
 }
