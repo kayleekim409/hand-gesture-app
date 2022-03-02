@@ -40,13 +40,13 @@ function gotResult(error, results) {
         prediction_1 = results[0].label;
         speak();
         if (results[0].label == "Amazing") {
-            document.getElementById("object_name").innerHTML = #128076;
+            document.getElementById("prediction").innerHTML = &#128076;
         }
         else if (results[0].label == "Best") {
-            document.getElementById("object_name").innerHTML = #128077;
+            document.getElementById("prediction").innerHTML = &#128077;
         }
         else if (results[0].label == "Victory") {
-            document.getElementById("object_name").innerHTML = #9996;
+            document.getElementById("prediction").innerHTML = &#9996;
         }
     }
 }
